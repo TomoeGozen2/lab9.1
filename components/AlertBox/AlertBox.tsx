@@ -2,11 +2,12 @@ import type { AlertType, AlertBoxProps } from "../../types";
 
 
 
-export function AlertTypes(props: AlertBoxProps){
+export function AlertBox(props:any){
+    
     return(
         <div>
             
-            {props.type = "warning"}
+            {props.type}
             {props.message}
             
             {props.children}
