@@ -1,13 +1,13 @@
 import type { User, UserProfileCardProps } from "../../types";
 
-export function UserProfileCard(props: UserProfileCardProps){
+export function UserProfileCard(props: any){
     return(
         <div>
-            {props.user.id}
-            {props.user.name}
-            {props.user.email}
-            {props.user.role}
-            {props.user.avatarUrl}
+            {props.id}
+            {props.name}
+            {props.email}
+            {props.role}
+            {props.avatarUrl}
 
         </div>
     )

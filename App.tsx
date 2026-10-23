@@ -17,6 +17,12 @@ export default function App() {
             >
                 <p className="text-sm">You can now continue using the application.</p>
             </AlertBox>
+            <UserProfileCard
+                id="123"
+                
+            >
+                
+            </UserProfileCard>
             <ProductDisplay />
         </div>
     )
